@@ -1,7 +1,7 @@
 # base-whatsapp-bot
 I don't know, I'm just bored :/
 
-## install
+## Install
 ```
 $ pkg update -y && pkg upgrade -y
 $ pkg install nodejs -y
@@ -9,7 +9,8 @@ $ pkg install git -y
 $ npm i -g yarn
 $ yarn
 ```
-```start
+## Start
+```
 $ yarn run start
 ```
 
