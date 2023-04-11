@@ -1,0 +1,16 @@
+{
+  "name": "baileys-up",
+  "version": "1.0.0",
+  "description": "mencoba baileys forkan orang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "zansky",
+  "license": "MIT",
+  "dependencies": {
+    "@kazedevid/whasapi": "github:KazeDevID/whasapi",
+    "path": "^0.12.7"
+  }
+}
