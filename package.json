@@ -1,13 +1,13 @@
 {
-  "name": "baileys-up",
+  "name": "base-wa-bot",
   "version": "1.0.0",
-  "description": "mencoba baileys forkan orang",
+  "description": "bored",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "zansky",
+  "author": "myname31",
   "license": "MIT",
   "dependencies": {
     "@kazedevid/whasapi": "github:KazeDevID/whasapi",
