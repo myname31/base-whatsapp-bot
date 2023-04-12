@@ -10,5 +10,5 @@ module.exports = {
     } catch (err) {
       return nky.reply({ text: `${err}!` });
   }
- }
-}
+ },
+};
