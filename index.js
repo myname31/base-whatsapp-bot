@@ -1,3 +1,4 @@
+require('./config')
 var {
     Client,
     CommandHandler
@@ -7,9 +8,9 @@ var path = require('path');
 //startClient
 var conn = new Client({
     name: "NKY", //I don't know what this is for :v
-    prefix: "!", //haven't made all the prefix yet, if you have any suggestions, please let me know...
+    prefix: global.prefix, //haven't made all the prefix yet, if you have any suggestions, please let me know...
     readIncommingMsg: true, //I don't know what this is for :v
-    authDir: "./session", //DirSession, if you don't set this code, the default name is "./state"
+    authDir: "./"+global.dirsesi, //DirSession, if you don't set this code, the default name is "./state"
     printQRInTerminal: true //printQrToTerminal
 });
 //readyToUse
