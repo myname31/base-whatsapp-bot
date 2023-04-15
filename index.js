@@ -2,13 +2,13 @@ require('./config')
 var {
     Client,
     CommandHandler
-} = require('@kazedevid/whasapi');
-var { Events } = require('@kazedevid/whasapi/dist/Constant')
+} = require('@nothKy/baileys');
+var { Events } = require('@nothKy/baileys/dist/Constant')
 var path = require('path');
 //startClient
 var conn = new Client({
     name: "NKY", //I don't know what this is for :v
-    prefix: global.prefix, //haven't made all the prefix yet, if you have any suggestions, please let me know...
+    prefix: global.prefix,
     readIncommingMsg: true, //I don't know what this is for :v
     authDir: "./"+global.dirsesi, //DirSession, if you don't set this code, the default name is "./state"
     printQRInTerminal: true //printQrToTerminal
