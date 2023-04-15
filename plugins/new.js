@@ -1,4 +1,4 @@
-var { Cooldown } = require('@kazedevid/whasapi')
+var { Cooldown } = require('@nothKy/baileys')
 module.exports = {
     name: "cek", //name cmd
     aliases: ["cek", "tes", "test"], //alias

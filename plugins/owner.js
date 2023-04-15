@@ -1,4 +1,4 @@
-var { delay } = require('@adiwajshing/baileys')
+var { delay } = require('baileys')
 module.exports = {
     name: 'owner',
     aliases: ['owner', 'creator'],
